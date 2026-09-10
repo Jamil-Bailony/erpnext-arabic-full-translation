@@ -3778,17 +3778,17 @@ msgstr "وصف الشاغر الوظيفي"
 #: hrms/payroll/report/income_tax_computation/income_tax_computation.py:609
 #: hrms/payroll/report/salary_register/salary_register.py:148
 msgid "Designation"
-msgstr "تعيين"
+msgstr "المسمى الوظيفي"
 
 #. Name of a DocType
 #: hrms/hr/doctype/designation_skill/designation_skill.json
 msgid "Designation Skill"
-msgstr "مهارة التعيين"
+msgstr "مهارة المسمى الوظيفي"
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:197
 #, python-brace-format
 msgid "Designation: {0}"
-msgstr "المنصب: {0}"
+msgstr "المسمى الوظيفي: {0}"
 
 #. Label of the details_section (Section Break) field in DocType 'Attendance'
 #. Label of the interview_details_section (Section Break) field in DocType
@@ -9248,7 +9248,7 @@ msgstr "لم يتم تحديد طلبات ورديات"
 
 #: hrms/hr/doctype/job_opening/job_opening.js:32
 msgid "No Staffing Plans found for this Designation"
-msgstr "لم يتم العثور على خطط التوظيف لهذا التصنيف"
+msgstr "لم يتم العثور على خطط توظيف لهذا المسمى الوظيفي"
 
 #: frontend/src/views/InvalidEmployee.vue:8
 #, python-brace-format
@@ -10374,7 +10374,7 @@ msgstr "يرجى الاطلاع على المرفق"
 
 #: hrms/hr/doctype/staffing_plan/staffing_plan.py:224
 msgid "Please select Company and Designation"
-msgstr "يرجى تحديد الشركة والتسمية"
+msgstr "يرجى تحديد الشركة والمسمى الوظيفي"
 
 #: hrms/payroll/doctype/employee_tax_exemption_proof_submission/employee_tax_exemption_proof_submission.js:22
 msgid "Please select Employee"
@@ -12505,7 +12505,7 @@ msgstr "وقت البدء الفعلي للمناوبة"
 #: hrms/hr/doctype/shift_assignment/shift_assignment.json
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
 msgid "Shift Assignment"
-msgstr "مهمة التحول"
+msgstr "تعيين الوردية"
 
 #. Label of the shift_assignment_details_section (Section Break) field in
 #. DocType 'Shift Assignment Tool'
@@ -16686,3 +16686,173 @@ msgstr "{0} حالة حضور غير صالحة."
 msgid "{0}. Check error log for more details."
 msgstr "{0}. راجع سجل الأخطاء لمزيد من التفاصيل."
 
+
+# Dashboard, Dashboard Chart and Number Card labels. These ship as JSON
+# fixtures installed as database records, so they never reach the POT and
+# upstream carries no translation for any of them. Frappe still resolves them
+# by msgid at render time, which is why defining them here works.
+
+msgid "Accepted Job Applicants"
+msgstr "المتقدمون للوظيفة المقبولون"
+
+msgid "Active Employees"
+msgstr "الموظفون النشطون"
+
+msgid "Applicant-to-Hire Percentage"
+msgstr "نسبة التعيين من المتقدمين"
+
+msgid "Approved Claims (This Month)"
+msgstr "المطالبات المعتمدة (هذا الشهر)"
+
+msgid "Claims by Type"
+msgstr "المطالبات حسب النوع"
+
+msgid "Department Wise Employee Count"
+msgstr "عدد الموظفين حسب القسم"
+
+msgid "Department Wise Salary(Last Month)"
+msgstr "الرواتب حسب القسم (الشهر الماضي)"
+
+msgid "Department wise Expense Claims"
+msgstr "مطالبات المصاريف حسب القسم"
+
+msgid "Department wise Timesheet Hours"
+msgstr "ساعات سجل الدوام حسب القسم"
+
+msgid "Designation Wise Employee Count"
+msgstr "عدد الموظفين حسب المسمى الوظيفي"
+
+msgid "Designation Wise Openings"
+msgstr "الوظائف المتاحة حسب المسمى الوظيفي"
+
+msgid "Designation Wise Salary(Last Month)"
+msgstr "الرواتب حسب المسمى الوظيفي (الشهر الماضي)"
+
+msgid "Early Exit (This Month)"
+msgstr "الخروج المبكر (هذا الشهر)"
+
+msgid "Employee Advance Status"
+msgstr "حالة سلفة الموظف"
+
+msgid "Employee Exits (This Year)"
+msgstr "مغادرات الموظفين (هذا العام)"
+
+msgid "Employees Joining (This Quarter)"
+msgstr "الموظفون المنضمون (هذا الربع)"
+
+msgid "Employees Relieving (This Quarter)"
+msgstr "الموظفون المنتهية خدمتهم (هذا الربع)"
+
+msgid "Employees by Age"
+msgstr "الموظفون حسب العمر"
+
+msgid "Employees by Branch"
+msgstr "الموظفون حسب الفرع"
+
+msgid "Employees by Grade"
+msgstr "الموظفون حسب الدرجة"
+
+msgid "Employees by Type"
+msgstr "الموظفون حسب النوع"
+
+msgid "Expense Claims (This Month)"
+msgstr "مطالبات المصاريف (هذا الشهر)"
+
+msgid "Gender Diversity Ratio"
+msgstr "نسبة التنوع بين الجنسين"
+
+msgid "Hiring vs Attrition Count"
+msgstr "عدد التعيينات مقابل حالات ترك العمل"
+
+msgid "Human Resource"
+msgstr "الموارد البشرية"
+
+msgid "Job Applicant Pipeline"
+msgstr "مسار المتقدمين للوظائف"
+
+msgid "Job Applicants by Country"
+msgstr "المتقدمون للوظائف حسب البلد"
+
+msgid "Job Application Frequency"
+msgstr "وتيرة التقدم للوظائف"
+
+msgid "Job Application Status"
+msgstr "حالة طلب التوظيف"
+
+msgid "Job Offer Acceptance Rate"
+msgstr "معدل قبول عروض العمل"
+
+msgid "Job Offer Status"
+msgstr "حالة عرض العمل"
+
+msgid "Job Offers (This Month)"
+msgstr "عروض العمل (هذا الشهر)"
+
+msgid "Late Entry (This Month)"
+msgstr "الدخول المتأخر (هذا الشهر)"
+
+msgid "New Hires (This Year)"
+msgstr "التعيينات الجديدة (هذا العام)"
+
+msgid "Number of Employees on Leave (This Month)"
+msgstr "عدد الموظفين في إجازة (هذا الشهر)"
+
+msgid "Number of Employees on Leave (Today)"
+msgstr "عدد الموظفين في إجازة (اليوم)"
+
+msgid "Onboardings (This Month)"
+msgstr "عمليات الإعداد والتأهيل (هذا الشهر)"
+
+msgid "Promotions (This Month)"
+msgstr "الترقيات (هذا الشهر)"
+
+msgid "Rejected Claims (This Month)"
+msgstr "المطالبات المرفوضة (هذا الشهر)"
+
+msgid "Rejected Job Applicants"
+msgstr "المتقدمون للوظيفة المرفوضون"
+
+msgid "Separations (This Month)"
+msgstr "حالات إنهاء الخدمة (هذا الشهر)"
+
+msgid "Shift Assignment Breakup"
+msgstr "تفصيل تعيينات الورديات"
+
+msgid "Timesheet Activity Breakup"
+msgstr "تفصيل أنشطة سجل الدوام"
+
+msgid "Total Absent (This Month)"
+msgstr "إجمالي الغياب (هذا الشهر)"
+
+msgid "Total Applicants (This Month)"
+msgstr "إجمالي المتقدمين (هذا الشهر)"
+
+msgid "Total Declaration Submitted"
+msgstr "إجمالي الإقرارات المقدمة"
+
+msgid "Total Incentive Given(Last month)"
+msgstr "إجمالي الحوافز الممنوحة (الشهر الماضي)"
+
+msgid "Total Outgoing Salary(Last month)"
+msgstr "إجمالي الرواتب المصروفة (الشهر الماضي)"
+
+msgid "Total Present (This Month)"
+msgstr "إجمالي الحضور (هذا الشهر)"
+
+msgid "Total Salary Structure"
+msgstr "إجمالي هياكل الرواتب"
+
+msgid "Training Type"
+msgstr "نوع التدريب"
+
+msgid "Trainings (This Month)"
+msgstr "التدريبات (هذا الشهر)"
+
+msgid "Transfers (This Month)"
+msgstr "حالات النقل (هذا الشهر)"
+
+msgid "Y-O-Y Promotions"
+msgstr "الترقيات على أساس سنوي"
+
+msgid "Y-O-Y Transfers"
+msgstr "حالات النقل على أساس سنوي"

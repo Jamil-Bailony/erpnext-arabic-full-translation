@@ -67302,8 +67302,6 @@ msgstr "{0}: كان متوقعًا \"{1}\"، وتم الحصول على \"{2}\""
 #~ msgid "Template Warnings"
 #~ msgstr "تحذيرات القالب"
 
-#~ msgid "Territory Wise Sales"
-#~ msgstr "المبيعات حسب المنطقة"
 
 #~ msgid "The Condition '{0}' is invalid"
 #~ msgstr "الشرط '{0}' غير صالح"
@@ -67469,8 +67467,6 @@ msgstr "{0}: كان متوقعًا \"{1}\"، وتم الحصول على \"{2}\""
 #~ msgid "Warehouse not found in the system"
 #~ msgstr "لم يتم العثور على المستودع في النظام"
 
-#~ msgid "Warehouse wise Stock Value"
-#~ msgstr "قيمة المخزون حسب المستودع"
 
 #~ msgid "Watch Video"
 #~ msgstr "شاهد الفيديو"
@@ -67592,3 +67588,98 @@ msgstr "{0}: كان متوقعًا \"{1}\"، وتم الحصول على \"{2}\""
 #~ msgid "{} To Bill"
 #~ msgstr "{} للفوترة"
 
+
+# Dashboard, Dashboard Chart and Number Card labels. These ship as JSON
+# fixtures installed as database records, so they never reach the POT and
+# upstream carries no translation for any of them. Frappe still resolves them
+# by msgid at render time, which is why defining them here works.
+
+msgid "Accounts Payable Ageing"
+msgstr "أعمار الحسابات الدائنة"
+
+msgid "Accounts Receivable Ageing"
+msgstr "أعمار الحسابات المدينة"
+
+msgid "Active Customers"
+msgstr "العملاء النشطون"
+
+msgid "Active Suppliers"
+msgstr "الموردون النشطون"
+
+msgid "Annual Purchase"
+msgstr "المشتريات السنوية"
+
+msgid "Annual Sales"
+msgstr "المبيعات السنوية"
+
+msgid "Average Sales Order Value"
+msgstr "متوسط قيمة أمر البيع"
+
+msgid "Delivery Trends"
+msgstr "اتجاهات التسليم"
+
+msgid "Incoming Bills (Purchase Invoice)"
+msgstr "الفواتير الواردة (فاتورة الشراء)"
+
+msgid "Incoming Leads"
+msgstr "العملاء المحتملون الواردون"
+
+msgid "Item Shortage Summary"
+msgstr "ملخص نقص الأصناف"
+
+msgid "Item-wise Annual Sales"
+msgstr "المبيعات السنوية حسب الصنف"
+
+msgid "Location-wise Asset Value"
+msgstr "قيمة الأصول حسب الموقع"
+
+msgid "Material Request Analysis"
+msgstr "تحليل طلبات المواد"
+
+msgid "Oldest Items"
+msgstr "أقدم الأصناف"
+
+msgid "Open Opportunity"
+msgstr "فرص البيع المفتوحة"
+
+msgid "Opportunities via Campaigns"
+msgstr "فرص البيع عبر الحملات"
+
+msgid "Opportunity Trends"
+msgstr "اتجاهات فرص البيع"
+
+msgid "Outgoing Bills (Sales Invoice)"
+msgstr "الفواتير الصادرة (فاتورة المبيعات)"
+
+msgid "Sales Orders Count"
+msgstr "عدد أوامر البيع"
+
+msgid "Territory Wise Opportunity Count"
+msgstr "عدد فرص البيع حسب الإقليم"
+
+msgid "Territory Wise Sales"
+msgstr "المبيعات حسب الإقليم"
+
+msgid "Timesheet Working Hours"
+msgstr "ساعات العمل في سجل الدوام"
+
+msgid "Top Customers"
+msgstr "أفضل العملاء"
+
+msgid "Top Suppliers"
+msgstr "أفضل الموردين"
+
+msgid "Total Incoming Bills"
+msgstr "إجمالي الفواتير الواردة"
+
+msgid "Total Incoming Payment"
+msgstr "إجمالي المدفوعات الواردة"
+
+msgid "Total Outgoing Bills"
+msgstr "إجمالي الفواتير الصادرة"
+
+msgid "Total Outgoing Payment"
+msgstr "إجمالي المدفوعات الصادرة"
+
+msgid "Warehouse wise Stock Value"
+msgstr "قيمة المخزون حسب المستودع"

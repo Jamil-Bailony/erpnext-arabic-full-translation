@@ -3294,7 +3294,7 @@ msgstr "تعليق واحد"
 
 #: frappe/tests/test_utils.py:710
 msgid "1 day ago"
-msgstr "منذ يوم واحد"
+msgstr "قبل يوم واحد"
 
 #: frappe/public/js/frappe/form/reminders.js:17
 msgid "1 hour"
@@ -3302,15 +3302,15 @@ msgstr "ساعة واحدة"
 
 #: frappe/public/js/frappe/utils/pretty_date.js:52 frappe/tests/test_utils.py:708
 msgid "1 hour ago"
-msgstr "منذ 1 ساعة"
+msgstr "قبل ساعة واحدة"
 
 #: frappe/public/js/frappe/utils/pretty_date.js:48 frappe/tests/test_utils.py:706
 msgid "1 minute ago"
-msgstr "منذ 1 دقيقة"
+msgstr "قبل دقيقة واحدة"
 
 #: frappe/public/js/frappe/utils/pretty_date.js:66 frappe/tests/test_utils.py:714
 msgid "1 month ago"
-msgstr "قبل شهر"
+msgstr "قبل شهر واحد"
 
 #: frappe/public/js/print_format_builder/PrintFormat.vue:3
 msgid "1 of 2"
@@ -3322,35 +3322,35 @@ msgstr "سيتم تصدير سجل واحد"
 
 #: frappe/tests/test_utils.py:705
 msgid "1 second ago"
-msgstr "منذ ثانية واحدة"
+msgstr "قبل ثانية واحدة"
 
 #: frappe/public/js/frappe/utils/pretty_date.js:62 frappe/tests/test_utils.py:712
 msgid "1 week ago"
-msgstr "1 قبل أسبوع"
+msgstr "قبل أسبوع واحد"
 
 #: frappe/public/js/frappe/utils/pretty_date.js:70 frappe/tests/test_utils.py:716
 msgid "1 year ago"
-msgstr "منذ سنة"
+msgstr "قبل سنة واحدة"
 
 #: frappe/tests/test_utils.py:709
 msgid "2 hours ago"
-msgstr "منذ ساعتين"
+msgstr "قبل ساعتين"
 
 #: frappe/tests/test_utils.py:715
 msgid "2 months ago"
-msgstr "منذ شهرين"
+msgstr "قبل شهرين"
 
 #: frappe/tests/test_utils.py:713
 msgid "2 weeks ago"
-msgstr "منذ أسبوعين"
+msgstr "قبل أسبوعين"
 
 #: frappe/tests/test_utils.py:717
 msgid "2 years ago"
-msgstr "منذ سنتين"
+msgstr "قبل سنتين"
 
 #: frappe/tests/test_utils.py:707
 msgid "3 minutes ago"
-msgstr "منذ 3 دقائق"
+msgstr "قبل 3 دقائق"
 
 #: frappe/public/js/frappe/form/reminders.js:16
 msgid "30 minutes"
@@ -3366,7 +3366,7 @@ msgstr "5 سجلات"
 
 #: frappe/tests/test_utils.py:711
 msgid "5 days ago"
-msgstr "منذ 5 أيام"
+msgstr "قبل 5 أيام"
 
 #: frappe/desk/doctype/bulk_update/bulk_update.py:36
 msgid "; not allowed in condition"
@@ -6386,7 +6386,7 @@ msgstr "صورة الخلفية"
 #: frappe/desk/doctype/system_health_report/system_health_report.json
 #: frappe/public/js/frappe/ui/toolbar/toolbar.js:180
 msgid "Background Jobs"
-msgstr "خلفية عن الخبرات السابقة"
+msgstr "المهام الخلفية"
 
 #. Label of the background_jobs_check (Data) field in DocType 'System Health
 #. Report'
@@ -10457,7 +10457,7 @@ msgstr "وصف لإعلام المستخدم بأي إجراء سيتم تنفي
 #. Label of the designation (Data) field in DocType 'Contact'
 #: frappe/contacts/doctype/contact/contact.json
 msgid "Designation"
-msgstr "تعيين"
+msgstr "المسمى الوظيفي"
 
 #. Label of the desk_access (Check) field in DocType 'Role'
 #: frappe/core/doctype/role/role.json
@@ -35432,7 +35432,7 @@ msgstr "{0} تركت محادثة في {1} {2}"
 #: frappe/public/js/frappe/utils/pretty_date.js:54
 #, python-brace-format
 msgid "{0} hours ago"
-msgstr "{0} قبل ساعات"
+msgstr "قبل {0} ساعات"
 
 #: frappe/website/doctype/web_form/templates/web_form.html:148
 #, python-brace-format
@@ -35899,7 +35899,7 @@ msgstr "{0} ث"
 #: frappe/public/js/frappe/utils/pretty_date.js:64
 #, python-brace-format
 msgid "{0} weeks ago"
-msgstr "قبل {0} أسبوع /أسابيع"
+msgstr "قبل {0} أسابيع"
 
 #: frappe/public/js/frappe/utils/pretty_date.js:39
 #, python-brace-format
@@ -35909,7 +35909,7 @@ msgstr "{0} ص"
 #: frappe/public/js/frappe/utils/pretty_date.js:72
 #, python-brace-format
 msgid "{0} years ago"
-msgstr "قبل {0} سنة"
+msgstr "قبل {0} سنوات"
 
 #: frappe/public/js/frappe/form/link_selector.js:219
 #, python-brace-format
@@ -37839,3 +37839,32 @@ msgstr "{0} إشعارات غير مقروءة"
 msgid "{0}, list item {1} of {2}"
 msgstr "{0}، عنصر القائمة {1} من {2}"
 
+
+# Dashboard, Dashboard Chart and Number Card labels. These ship as JSON
+# fixtures installed as database records, so they never reach the POT and
+# upstream carries no translation for any of them. Frappe still resolves them
+# by msgid at render time, which is why defining them here works.
+
+msgid "Active RQ Worker"
+msgstr "عاملو RQ النشطون"
+
+msgid "Background Job Activity"
+msgstr "نشاط المهام الخلفية"
+
+msgid "Email Activity"
+msgstr "نشاط البريد الإلكتروني"
+
+msgid "Notifications By Type"
+msgstr "الإشعارات حسب النوع"
+
+msgid "Scheduled Jobs"
+msgstr "المهام المجدولة"
+
+msgid "Total System Users"
+msgstr "إجمالي مستخدمي النظام"
+
+msgid "Total Website Users"
+msgstr "إجمالي مستخدمي الموقع"
+
+msgid "Webpage Views"
+msgstr "مشاهدات صفحات الويب"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: arabic_translations VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-09-10 01:29+0300\n"
+"POT-Creation-Date: 2025-05-18 09:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Arabic Translations contributors\n"
 "Language: ar\n"
@@ -656,7 +656,7 @@ msgstr "تعليق واحد"
 
 #. source: frappe
 msgid "1 day ago"
-msgstr "منذ يوم واحد"
+msgstr "قبل يوم واحد"
 
 #. source: frappe
 msgid "1 hour"
@@ -664,7 +664,7 @@ msgstr "ساعة واحدة"
 
 #. source: frappe
 msgid "1 hour ago"
-msgstr "منذ 1 ساعة"
+msgstr "قبل ساعة واحدة"
 
 #. source: erpnext
 msgid "1 hr"
@@ -676,11 +676,11 @@ msgstr "فاتورة واحدة"
 
 #. source: frappe
 msgid "1 minute ago"
-msgstr "منذ 1 دقيقة"
+msgstr "قبل دقيقة واحدة"
 
 #. source: frappe
 msgid "1 month ago"
-msgstr "قبل شهر"
+msgstr "قبل شهر واحد"
 
 #. source: frappe
 msgid "1 of 2"
@@ -702,15 +702,15 @@ msgstr "صف واحد إلى {0}"
 
 #. source: frappe
 msgid "1 second ago"
-msgstr "منذ ثانية واحدة"
+msgstr "قبل ثانية واحدة"
 
 #. source: frappe
 msgid "1 week ago"
-msgstr "1 قبل أسبوع"
+msgstr "قبل أسبوع واحد"
 
 #. source: frappe
 msgid "1 year ago"
-msgstr "منذ سنة"
+msgstr "قبل سنة واحدة"
 
 #. source: erpnext
 msgid "1-10"
@@ -778,19 +778,19 @@ msgstr "عامين"
 
 #. source: frappe
 msgid "2 hours ago"
-msgstr "منذ ساعتين"
+msgstr "قبل ساعتين"
 
 #. source: frappe
 msgid "2 months ago"
-msgstr "منذ شهرين"
+msgstr "قبل شهرين"
 
 #. source: frappe
 msgid "2 weeks ago"
-msgstr "منذ أسبوعين"
+msgstr "قبل أسبوعين"
 
 #. source: frappe
 msgid "2 years ago"
-msgstr "منذ سنتين"
+msgstr "قبل سنتين"
 
 #. source: erpnext
 msgid "201-500"
@@ -818,7 +818,7 @@ msgstr "كل 3 سنوات"
 
 #. source: frappe
 msgid "3 minutes ago"
-msgstr "منذ 3 دقائق"
+msgstr "قبل 3 دقائق"
 
 #. source: erpnext
 msgid "30 - 60 Days"
@@ -850,7 +850,7 @@ msgstr "5 سجلات"
 
 #. source: frappe
 msgid "5 days ago"
-msgstr "منذ 5 أيام"
+msgstr "قبل 5 أيام"
 
 #. source: erpnext
 msgid "501-1000"
@@ -2809,6 +2809,10 @@ msgstr "مقبول"
 msgid "Accepted At"
 msgstr "تم القبول في"
 
+#. source: hrms
+msgid "Accepted Job Applicants"
+msgstr "المتقدمون للوظيفة المقبولون"
+
 #. source: erpnext
 msgid "Accepted Qty"
 msgstr "الكمية المقبولة"
@@ -3338,6 +3342,10 @@ msgid "Accounts Payable"
 msgstr "الحسابات الدائنة"
 
 #. source: erpnext
+msgid "Accounts Payable Ageing"
+msgstr "أعمار الحسابات الدائنة"
+
+#. source: erpnext
 msgid "Accounts Payable Summary"
 msgstr "ملخص الحسابات الدائنة"
 
@@ -3356,6 +3364,10 @@ msgstr "ضبط حسابات القبض / الدفع"
 #. source: erpnext
 msgid "Accounts Receivable / Payable remarks length"
 msgstr "طول ملاحظات الحسابات المدينة / الدائنة"
+
+#. source: erpnext
+msgid "Accounts Receivable Ageing"
+msgstr "أعمار الحسابات المدينة"
 
 #. source: erpnext
 msgid "Accounts Receivable Credit Account"
@@ -3667,6 +3679,10 @@ msgstr "تفعيل الرقم التسلسلي / رقم الدفعة للصنف"
 msgid "Active"
 msgstr "نشط"
 
+#. source: erpnext
+msgid "Active Customers"
+msgstr "العملاء النشطون"
+
 #. source: frappe
 msgid "Active Directory"
 msgstr "Active Directory"
@@ -3675,9 +3691,17 @@ msgstr "Active Directory"
 msgid "Active Domains"
 msgstr "المجالات النشطة"
 
+#. source: hrms
+msgid "Active Employees"
+msgstr "الموظفون النشطون"
+
 #. source: erpnext
 msgid "Active Leads"
 msgstr "العملاء المحتملون النشطون"
+
+#. source: frappe
+msgid "Active RQ Worker"
+msgstr "عاملو RQ النشطون"
 
 #. source: frappe
 msgid "Active Sessions"
@@ -3690,6 +3714,10 @@ msgstr "الحالة النشطة"
 #. source: erpnext
 msgid "Active Subcontracted Items"
 msgstr "أصناف التعاقد من الباطن النشطة"
+
+#. source: erpnext
+msgid "Active Suppliers"
+msgstr "الموردون النشطون"
 
 #. source: erpnext
 msgid "Activities"
@@ -6801,12 +6829,20 @@ msgid "Annual Income"
 msgstr "الدخل السنوي"
 
 #. source: erpnext
+msgid "Annual Purchase"
+msgstr "المشتريات السنوية"
+
+#. source: erpnext
 msgid "Annual Revenue"
 msgstr "الإيرادات السنوية"
 
 #. source: hrms
 msgid "Annual Salary"
 msgstr "الراتب السنوي"
+
+#. source: erpnext
+msgid "Annual Sales"
+msgstr "المبيعات السنوية"
 
 #. source: hrms
 msgid "Annual Taxable Amount"
@@ -7105,6 +7141,10 @@ msgstr "مقدم الطلب للحصول على وظيفة"
 #. source: hrms
 msgid "Applicant name"
 msgstr "اسم التطبيق"
+
+#. source: hrms
+msgid "Applicant-to-Hire Percentage"
+msgstr "نسبة التعيين من المتقدمين"
 
 #. source: hrms
 msgid "Application"
@@ -7539,6 +7579,10 @@ msgstr "يعتمد"
 #. source: hrms
 msgid "Approved"
 msgstr "موافقة"
+
+#. source: hrms
+msgid "Approved Claims (This Month)"
+msgstr "المطالبات المعتمدة (هذا الشهر)"
 
 #. source: hrms
 msgid "Approver"
@@ -9590,6 +9634,10 @@ msgstr "متوسط ​​التصنيف"
 msgid "Average Response Time"
 msgstr "متوسط وقت الاستجابة"
 
+#. source: erpnext
+msgid "Average Sales Order Value"
+msgstr "متوسط قيمة أمر البيع"
+
 #. source: hrms
 msgid "Average of Goal Score, Feedback Score, and Self Appraisal Score"
 msgstr "متوسط درجة الأهداف ودرجة التغذية الراجعة ودرجة التقييم الذاتي"
@@ -10053,8 +10101,12 @@ msgid "Background Job"
 msgstr "مهمة خلفية"
 
 #. source: frappe
+msgid "Background Job Activity"
+msgstr "نشاط المهام الخلفية"
+
+#. source: frappe
 msgid "Background Jobs"
-msgstr "خلفية عن الخبرات السابقة"
+msgstr "المهام الخلفية"
 
 #. source: frappe
 msgid "Background Jobs Check"
@@ -14368,6 +14420,10 @@ msgstr "يجب أن يكون المبلغ المطالَب به للموظف {0}
 #. source: hrms
 msgid "Claims"
 msgstr "المطالبات"
+
+#. source: hrms
+msgid "Claims by Type"
+msgstr "المطالبات حسب النوع"
 
 #. source: erpnext
 msgid "Class / Percentage"
@@ -20438,6 +20494,10 @@ msgid "Delivery To Date"
 msgstr "التسليم حتى تاريخه"
 
 #. source: erpnext
+msgid "Delivery Trends"
+msgstr "اتجاهات التسليم"
+
+#. source: erpnext
 msgid "Delivery Trip"
 msgstr "رحلة التسليم"
 
@@ -20506,8 +20566,24 @@ msgid "Department Stores"
 msgstr "المتاجر الكبرى"
 
 #. source: hrms
+msgid "Department Wise Employee Count"
+msgstr "عدد الموظفين حسب القسم"
+
+#. source: hrms
 msgid "Department Wise Openings"
 msgstr "الوظائف الشاغرة حسب الإدارة"
+
+#. source: hrms
+msgid "Department Wise Salary(Last Month)"
+msgstr "الرواتب حسب القسم (الشهر الماضي)"
+
+#. source: hrms
+msgid "Department wise Expense Claims"
+msgstr "مطالبات المصاريف حسب القسم"
+
+#. source: hrms
+msgid "Department wise Timesheet Hours"
+msgstr "ساعات سجل الدوام حسب القسم"
 
 #. source: hrms
 msgid "Department {0} does not belong to company: {1}"
@@ -20719,15 +20795,27 @@ msgstr ""
 
 #. source: frappe
 msgid "Designation"
-msgstr "تعيين"
+msgstr "المسمى الوظيفي"
 
 #. source: hrms
 msgid "Designation Skill"
-msgstr "مهارة التعيين"
+msgstr "مهارة المسمى الوظيفي"
+
+#. source: hrms
+msgid "Designation Wise Employee Count"
+msgstr "عدد الموظفين حسب المسمى الوظيفي"
+
+#. source: hrms
+msgid "Designation Wise Openings"
+msgstr "الوظائف المتاحة حسب المسمى الوظيفي"
+
+#. source: hrms
+msgid "Designation Wise Salary(Last Month)"
+msgstr "الرواتب حسب المسمى الوظيفي (الشهر الماضي)"
 
 #. source: hrms
 msgid "Designation: {0}"
-msgstr "المنصب: {0}"
+msgstr "المسمى الوظيفي: {0}"
 
 #. source: erpnext
 msgid "Designer"
@@ -22757,6 +22845,10 @@ msgid "Early Exit"
 msgstr "الخروج المبكر"
 
 #. source: hrms
+msgid "Early Exit (This Month)"
+msgstr "الخروج المبكر (هذا الشهر)"
+
+#. source: hrms
 msgid "Early Exit By"
 msgstr "انصراف مبكر بـ"
 
@@ -23181,6 +23273,10 @@ msgid "Email Account {0} Disabled"
 msgstr "حساب البريد الإلكتروني {0} معطل"
 
 #. source: frappe
+msgid "Email Activity"
+msgstr "نشاط البريد الإلكتروني"
+
+#. source: frappe
 msgid "Email Address"
 msgstr "البريد الإلكتروني"
 
@@ -23527,6 +23623,10 @@ msgid "Employee Advance Balance"
 msgstr "رصيد سلفة الموظف"
 
 #. source: hrms
+msgid "Employee Advance Status"
+msgstr "حالة سلفة الموظف"
+
+#. source: hrms
 msgid "Employee Advance Summary"
 msgstr "ملخص متقدم للموظف"
 
@@ -23625,6 +23725,10 @@ msgstr "إعدادات إنهاء خدمة الموظف"
 #. source: hrms
 msgid "Employee Exits"
 msgstr "حالات إنهاء خدمة الموظفين"
+
+#. source: hrms
+msgid "Employee Exits (This Year)"
+msgstr "مغادرات الموظفين (هذا العام)"
 
 #. source: erpnext
 msgid "Employee External Work History"
@@ -23993,8 +24097,32 @@ msgid "Employees HTML"
 msgstr "الموظفين HTML"
 
 #. source: hrms
+msgid "Employees Joining (This Quarter)"
+msgstr "الموظفون المنضمون (هذا الربع)"
+
+#. source: hrms
+msgid "Employees Relieving (This Quarter)"
+msgstr "الموظفون المنتهية خدمتهم (هذا الربع)"
+
+#. source: hrms
 msgid "Employees Working on a Holiday"
 msgstr "الموظفون العاملون في عطلة"
+
+#. source: hrms
+msgid "Employees by Age"
+msgstr "الموظفون حسب العمر"
+
+#. source: hrms
+msgid "Employees by Branch"
+msgstr "الموظفون حسب الفرع"
+
+#. source: hrms
+msgid "Employees by Grade"
+msgstr "الموظفون حسب الدرجة"
+
+#. source: hrms
+msgid "Employees by Type"
+msgstr "الموظفون حسب النوع"
 
 #. source: hrms
 msgid "Employees cannot give feedback to themselves. Use {0} instead: {1}"
@@ -26020,6 +26148,10 @@ msgstr "المطالبة بالنفقات {0} بالفعل موجودة في س�
 #. source: hrms
 msgid "Expense Claims"
 msgstr "طلبات المصروفات"
+
+#. source: hrms
+msgid "Expense Claims (This Month)"
+msgstr "مطالبات المصاريف (هذا الشهر)"
 
 #. source: hrms
 msgid "Expense Date"
@@ -29465,6 +29597,10 @@ msgstr "جاوس"
 msgid "Gender"
 msgstr "جنس"
 
+#. source: hrms
+msgid "Gender Diversity Ratio"
+msgstr "نسبة التنوع بين الجنسين"
+
 #. source: frappe
 msgid "Genderqueer"
 msgstr "جندر كوير"
@@ -31277,6 +31413,10 @@ msgstr "عدد التعيينات"
 msgid "Hiring Settings"
 msgstr "إعدادات التوظيف"
 
+#. source: hrms
+msgid "Hiring vs Attrition Count"
+msgstr "عدد التعيينات مقابل حالات ترك العمل"
+
 #. source: erpnext
 msgid "History In Company"
 msgstr "الحركة التاريخية في الشركة"
@@ -31491,6 +31631,10 @@ msgstr "كيفية تنسيق وعرض القيم في التقرير المال
 #. source: erpnext
 msgid "Hrs"
 msgstr "ساعات"
+
+#. source: hrms
+msgid "Human Resource"
+msgstr "الموارد البشرية"
 
 #. source: erpnext
 msgid "Human Resources"
@@ -33681,6 +33825,10 @@ msgid "Incoming Bills"
 msgstr "الفواتير الواردة"
 
 #. source: erpnext
+msgid "Incoming Bills (Purchase Invoice)"
+msgstr "الفواتير الواردة (فاتورة الشراء)"
+
+#. source: erpnext
 msgid "Incoming Call Handling Schedule"
 msgstr "جدول معالجة المكالمات الواردة"
 
@@ -33691,6 +33839,10 @@ msgstr "إعدادات المكالمات الواردة"
 #. source: frappe
 msgid "Incoming Emails (Last 7 days)"
 msgstr "رسائل البريد الإلكتروني الواردة (آخر 7 أيام)"
+
+#. source: erpnext
+msgid "Incoming Leads"
+msgstr "العملاء المحتملون الواردون"
 
 #. source: erpnext
 msgid "Incoming Payment"
@@ -36528,6 +36680,10 @@ msgid "Item Shortage Report"
 msgstr "تقرير نقص الصنف"
 
 #. source: erpnext
+msgid "Item Shortage Summary"
+msgstr "ملخص نقص الأصناف"
+
+#. source: erpnext
 msgid "Item Supplier"
 msgstr "مورد الصنف"
 
@@ -36844,6 +37000,10 @@ msgid "Item {} does not exist."
 msgstr "الصنف {} غير موجود."
 
 #. source: erpnext
+msgid "Item-wise Annual Sales"
+msgstr "المبيعات السنوية حسب الصنف"
+
+#. source: erpnext
 msgid "Item-wise Price List Rate"
 msgstr "معدل قائمة الأسعار حسب الصنف"
 
@@ -37024,6 +37184,10 @@ msgid "Job Applicant"
 msgstr "متقدم للوظيفة"
 
 #. source: hrms
+msgid "Job Applicant Pipeline"
+msgstr "مسار المتقدمين للوظائف"
+
+#. source: hrms
 msgid "Job Applicant Source"
 msgstr "مصدر طالب الوظيفة"
 
@@ -37048,12 +37212,24 @@ msgstr ""
 "بالفعل للمتقدم للوظيفة {1}"
 
 #. source: hrms
+msgid "Job Applicants by Country"
+msgstr "المتقدمون للوظائف حسب البلد"
+
+#. source: hrms
 msgid "Job Application"
 msgstr "طلب توظيف"
 
 #. source: hrms
+msgid "Job Application Frequency"
+msgstr "وتيرة التقدم للوظائف"
+
+#. source: hrms
 msgid "Job Application Route"
 msgstr "مسار طلب التوظيف"
+
+#. source: hrms
+msgid "Job Application Status"
+msgstr "حالة طلب التوظيف"
 
 #. source: erpnext
 msgid "Job Capacity"
@@ -37144,6 +37320,14 @@ msgid "Job Offer"
 msgstr "عرض عمل"
 
 #. source: hrms
+msgid "Job Offer Acceptance Rate"
+msgstr "معدل قبول عروض العمل"
+
+#. source: hrms
+msgid "Job Offer Status"
+msgstr "حالة عرض العمل"
+
+#. source: hrms
 msgid "Job Offer Term"
 msgstr "شرط عرض العمل"
 
@@ -37162,6 +37346,10 @@ msgstr "حالة عرض العمل"
 #. source: hrms
 msgid "Job Offer: {0} is already for Job Applicant: {1}"
 msgstr "عرض الوظيفة: {0} مقدم بالفعل لمقدم طلب وظيفة: {1}"
+
+#. source: hrms
+msgid "Job Offers (This Month)"
+msgstr "عروض العمل (هذا الشهر)"
 
 #. source: hrms
 msgid "Job Opening"
@@ -38051,6 +38239,10 @@ msgstr "الدخول المتأخر"
 #. source: hrms
 msgid "Late Entry & Early Exit Settings for Auto Attendance"
 msgstr "إعدادات الدخول المتأخر والخروج المبكر للحضور التلقائي"
+
+#. source: hrms
+msgid "Late Entry (This Month)"
+msgstr "الدخول المتأخر (هذا الشهر)"
 
 #. source: hrms
 msgid "Late Entry By"
@@ -39251,6 +39443,10 @@ msgstr "تفاصيل الموقع"
 #. source: erpnext
 msgid "Location Name"
 msgstr "اسم الموقع"
+
+#. source: erpnext
+msgid "Location-wise Asset Value"
+msgstr "قيمة الأصول حسب الموقع"
 
 #. source: erpnext
 msgid "Locked"
@@ -40535,6 +40731,10 @@ msgstr "استلام مواد"
 #. source: erpnext
 msgid "Material Request"
 msgstr "طلب مواد"
+
+#. source: erpnext
+msgid "Material Request Analysis"
+msgstr "تحليل طلبات المواد"
 
 #. source: erpnext
 msgid "Material Request Date"
@@ -42792,6 +42992,10 @@ msgstr "ملف جديد"
 msgid "New Hires (This Month)"
 msgstr "الموظفون الجدد (هذا الشهر)"
 
+#. source: hrms
+msgid "New Hires (This Year)"
+msgstr "التعيينات الجديدة (هذا العام)"
+
 #. source: erpnext
 msgid "New Income"
 msgstr "دخل جديد"
@@ -43535,7 +43739,7 @@ msgstr "لم يتم تحديد طلبات ورديات"
 
 #. source: hrms
 msgid "No Staffing Plans found for this Designation"
-msgstr "لم يتم العثور على خطط التوظيف لهذا التصنيف"
+msgstr "لم يتم العثور على خطط توظيف لهذا المسمى الوظيفي"
 
 #. source: erpnext
 msgid "No Stock Available Currently"
@@ -44939,6 +45143,10 @@ msgid "Notifications"
 msgstr "الإشعارات"
 
 #. source: frappe
+msgid "Notifications By Type"
+msgstr "الإشعارات حسب النوع"
+
+#. source: frappe
 msgid "Notifications Disabled"
 msgstr "الإشعارات معطلة"
 
@@ -45069,6 +45277,14 @@ msgstr "لا يمكن أن يكون عدد نسخ DB الاحتياطية أقل
 #. source: erpnext
 msgid "Number of Days"
 msgstr "عدد الأيام"
+
+#. source: hrms
+msgid "Number of Employees on Leave (This Month)"
+msgstr "عدد الموظفين في إجازة (هذا الشهر)"
+
+#. source: hrms
+msgid "Number of Employees on Leave (Today)"
+msgstr "عدد الموظفين في إجازة (اليوم)"
 
 #. source: frappe
 msgid "Number of Events"
@@ -45439,6 +45655,10 @@ msgid "Older backups will be automatically deleted"
 msgstr "سيتم حذف النسخ الاحتياطية القديمة تلقائيا"
 
 #. source: erpnext
+msgid "Oldest Items"
+msgstr "أقدم الأصناف"
+
+#. source: erpnext
 msgid "Oldest Of Invoice Or Advance"
 msgstr "الأقدم من الفاتورة أو الدفعة المقدمة"
 
@@ -45618,6 +45838,10 @@ msgstr "اكتمل الإعداد"
 #. source: erpnext
 msgid "Onboarding for Stock!"
 msgstr "التهيئة الأولية للمخزون!"
+
+#. source: hrms
+msgid "Onboardings (This Month)"
+msgstr "عمليات الإعداد والتأهيل (هذا الشهر)"
 
 #. source: erpnext
 msgid "Once set, this invoice will be on hold till the set date"
@@ -46029,6 +46253,10 @@ msgstr "فتح الإشعارات"
 #. source: hrms
 msgid "Open Now"
 msgstr "افتح الآن"
+
+#. source: erpnext
+msgid "Open Opportunity"
+msgstr "فرص البيع المفتوحة"
 
 #. source: erpnext
 msgid "Open Orders"
@@ -46478,6 +46706,10 @@ msgid "Opportunities by Source"
 msgstr "الفرص حسب المصدر"
 
 #. source: erpnext
+msgid "Opportunities via Campaigns"
+msgstr "فرص البيع عبر الحملات"
+
+#. source: erpnext
 msgid "Opportunity"
 msgstr "فرصة بيع"
 
@@ -46524,6 +46756,10 @@ msgstr "ملخص الفرص حسب مرحلة البيع"
 #. source: erpnext
 msgid "Opportunity Summary by Sales Stage "
 msgstr "ملخص الفرص حسب مرحلة البيع "
+
+#. source: erpnext
+msgid "Opportunity Trends"
+msgstr "اتجاهات فرص البيع"
 
 #. source: erpnext
 msgid "Opportunity Type"
@@ -46889,6 +47125,10 @@ msgstr "إعدادات الصادر (SMTP)"
 #. source: erpnext
 msgid "Outgoing Bills"
 msgstr "الفواتير الصادرة"
+
+#. source: erpnext
+msgid "Outgoing Bills (Sales Invoice)"
+msgstr "الفواتير الصادرة (فاتورة المبيعات)"
 
 #. source: frappe
 msgid "Outgoing Emails (Last 7 days)"
@@ -50891,7 +51131,7 @@ msgstr "الرجاء اختيار شركة"
 
 #. source: hrms
 msgid "Please select Company and Designation"
-msgstr "يرجى تحديد الشركة والتسمية"
+msgstr "يرجى تحديد الشركة والمسمى الوظيفي"
 
 #. source: erpnext
 msgid "Please select Company and Posting Date to getting entries"
@@ -53500,6 +53740,10 @@ msgstr "خصم سعر المخطط الترويجي"
 #. source: erpnext
 msgid "Promotional Scheme Product Discount"
 msgstr "خصم المنتج خطة ترويجية"
+
+#. source: hrms
+msgid "Promotions (This Month)"
+msgstr "الترقيات (هذا الشهر)"
 
 #. source: erpnext
 msgid "Prompt Qty"
@@ -56240,6 +56484,14 @@ msgstr "مرفوض"
 #. source: erpnext
 msgid "Rejected "
 msgstr "مرفوض "
+
+#. source: hrms
+msgid "Rejected Claims (This Month)"
+msgstr "المطالبات المرفوضة (هذا الشهر)"
+
+#. source: hrms
+msgid "Rejected Job Applicants"
+msgstr "المتقدمون للوظيفة المرفوضون"
 
 #. source: erpnext
 msgid "Rejected Qty"
@@ -60945,6 +61197,10 @@ msgid "Sales Orders"
 msgstr "أوامر البيع"
 
 #. source: erpnext
+msgid "Sales Orders Count"
+msgstr "عدد أوامر البيع"
+
+#. source: erpnext
 msgid "Sales Orders Required"
 msgstr "أوامر المبيعات مطلوبة"
 
@@ -61396,6 +61652,10 @@ msgstr "سجل الوظائف المجدولة"
 #. source: frappe
 msgid "Scheduled Job Type"
 msgstr "نوع الوظيفة المجدولة"
+
+#. source: frappe
+msgid "Scheduled Jobs"
+msgstr "المهام المجدولة"
 
 #. source: frappe
 msgid "Scheduled Jobs Logs"
@@ -63208,6 +63468,10 @@ msgstr "أنشطة إنهاء الخدمة"
 msgid "Separation Begins On"
 msgstr "يبدأ إنهاء الخدمة في"
 
+#. source: hrms
+msgid "Separations (This Month)"
+msgstr "حالات إنهاء الخدمة (هذا الشهر)"
+
 #. source: frappe
 msgid "Separator"
 msgstr "فاصل"
@@ -64505,7 +64769,11 @@ msgstr "وقت البدء الفعلي للمناوبة"
 
 #. source: hrms
 msgid "Shift Assignment"
-msgstr "مهمة التحول"
+msgstr "تعيين الوردية"
+
+#. source: hrms
+msgid "Shift Assignment Breakup"
+msgstr "تفصيل تعيينات الورديات"
 
 #. source: hrms
 msgid "Shift Assignment Details"
@@ -69432,6 +69700,14 @@ msgid "Territory Targets"
 msgstr "الاقاليم المستهدفة"
 
 #. source: erpnext
+msgid "Territory Wise Opportunity Count"
+msgstr "عدد فرص البيع حسب الإقليم"
+
+#. source: erpnext
+msgid "Territory Wise Sales"
+msgstr "المبيعات حسب الإقليم"
+
+#. source: erpnext
 msgid "Territory-wise Sales"
 msgstr "المبيعات حسب الإقليم"
 
@@ -72145,6 +72421,10 @@ msgstr "السلاسل الزمنية"
 msgid "Timesheet"
 msgstr "سجل الدوام"
 
+#. source: hrms
+msgid "Timesheet Activity Breakup"
+msgstr "تفصيل أنشطة سجل الدوام"
+
 #. source: erpnext
 msgid "Timesheet Billing Summary"
 msgstr "ملخص فواتير الجداول الزمنية"
@@ -72156,6 +72436,10 @@ msgstr "تفاصيل سجل الدوام"
 #. source: hrms
 msgid "Timesheet Details"
 msgstr "تفاصيل الجداول الزمنية"
+
+#. source: erpnext
+msgid "Timesheet Working Hours"
+msgstr "ساعات العمل في سجل الدوام"
 
 #. source: erpnext
 msgid "Timesheet for tasks."
@@ -72849,6 +73133,10 @@ msgstr "قطع الشريط العلوي"
 msgid "Top Center"
 msgstr "أعلى الوسط"
 
+#. source: erpnext
+msgid "Top Customers"
+msgstr "أفضل العملاء"
+
 #. source: frappe
 msgid "Top Errors"
 msgstr "أهم الأخطاء"
@@ -72860,6 +73148,10 @@ msgstr "أعلى اليسار"
 #. source: frappe
 msgid "Top Right"
 msgstr "أعلى اليمين"
+
+#. source: erpnext
+msgid "Top Suppliers"
+msgstr "أفضل الموردين"
 
 #. source: frappe
 msgid "Topic"
@@ -72888,6 +73180,10 @@ msgstr "الإجمالي (بدون ضريبة)"
 #. source: hrms
 msgid "Total Absent"
 msgstr "إجمالي الغياب"
+
+#. source: hrms
+msgid "Total Absent (This Month)"
+msgstr "إجمالي الغياب (هذا الشهر)"
 
 #. source: hrms
 msgid "Total Accrued"
@@ -72992,6 +73288,10 @@ msgid ""
 msgstr ""
 "يجب أن يساوي إجمالي الرسوم المطبقة في جدول أصناف إشعار استلام المشتريات إجمالي "
 "الضرائب والرسوم"
+
+#. source: hrms
+msgid "Total Applicants (This Month)"
+msgstr "إجمالي المتقدمين (هذا الشهر)"
 
 #. source: erpnext
 msgid "Total Asset"
@@ -73154,6 +73454,10 @@ msgid "Total Debits"
 msgstr "إجمالي الأرصدة المدينة"
 
 #. source: hrms
+msgid "Total Declaration Submitted"
+msgstr "إجمالي الإقرارات المقدمة"
+
+#. source: hrms
 msgid "Total Declared Amount"
 msgstr "إجمالي المبلغ المعلن"
 
@@ -73277,6 +73581,10 @@ msgstr "إجمالي الساعات (T)"
 msgid "Total Images"
 msgstr "إجمالي الصور"
 
+#. source: hrms
+msgid "Total Incentive Given(Last month)"
+msgstr "إجمالي الحوافز الممنوحة (الشهر الماضي)"
+
 #. source: erpnext
 msgid "Total Income"
 msgstr "إجمالي الدخل"
@@ -73288,6 +73596,14 @@ msgstr "إجمالي ضريبة الدخل"
 #. source: erpnext
 msgid "Total Income This Year"
 msgstr "إجمالي الدخل هذا العام"
+
+#. source: erpnext
+msgid "Total Incoming Bills"
+msgstr "إجمالي الفواتير الواردة"
+
+#. source: erpnext
+msgid "Total Incoming Payment"
+msgstr "إجمالي المدفوعات الواردة"
 
 #. source: erpnext
 msgid "Total Incoming Value (Receipt)"
@@ -73413,9 +73729,21 @@ msgstr "إجمالي الرسوم الأخرى"
 msgid "Total Outgoing"
 msgstr "مجموع المنتهية ولايته"
 
+#. source: erpnext
+msgid "Total Outgoing Bills"
+msgstr "إجمالي الفواتير الصادرة"
+
 #. source: frappe
 msgid "Total Outgoing Emails"
 msgstr "إجمالي رسائل البريد الإلكتروني الصادرة"
+
+#. source: erpnext
+msgid "Total Outgoing Payment"
+msgstr "إجمالي المدفوعات الصادرة"
+
+#. source: hrms
+msgid "Total Outgoing Salary(Last month)"
+msgstr "إجمالي الرواتب المصروفة (الشهر الماضي)"
 
 #. source: erpnext
 msgid "Total Outgoing Value (Consumption)"
@@ -73478,6 +73806,10 @@ msgid "Total Present"
 msgstr "إجمالي الحضور"
 
 #. source: hrms
+msgid "Total Present (This Month)"
+msgstr "إجمالي الحضور (هذا الشهر)"
+
+#. source: hrms
 msgid "Total Principal Amount"
 msgstr "إجمالي المبلغ الأساسي"
 
@@ -73533,6 +73865,10 @@ msgstr "إجمالي الاستقالات"
 msgid "Total Revenue"
 msgstr "إجمالي الإيرادات"
 
+#. source: hrms
+msgid "Total Salary Structure"
+msgstr "إجمالي هياكل الرواتب"
+
 #. source: erpnext
 msgid "Total Sales Amount"
 msgstr "إجمالي مبلغ المبيعات"
@@ -73572,6 +73908,10 @@ msgstr "إجمالي عدد المشتركين"
 #. source: erpnext
 msgid "Total Supplied Qty"
 msgstr "إجمالي الكمية الموردة"
+
+#. source: frappe
+msgid "Total System Users"
+msgstr "إجمالي مستخدمي النظام"
 
 #. source: erpnext
 msgid "Total Target"
@@ -73640,6 +73980,10 @@ msgstr "إجمالي المشاهدات"
 #. source: erpnext
 msgid "Total Warehouses"
 msgstr "إجمالي المستودعات"
+
+#. source: frappe
+msgid "Total Website Users"
+msgstr "إجمالي مستخدمي الموقع"
 
 #. source: erpnext
 msgid "Total Weight"
@@ -73966,8 +74310,16 @@ msgid "Training Result Employee"
 msgstr "نتيجة تدريب الموظفين"
 
 #. source: hrms
+msgid "Training Type"
+msgstr "نوع التدريب"
+
+#. source: hrms
 msgid "Trainings"
 msgstr "دورات تدريبية"
+
+#. source: hrms
+msgid "Trainings (This Month)"
+msgstr "التدريبات (هذا الشهر)"
 
 #. source: hrms
 msgid "Trainings (This Week)"
@@ -74240,6 +74592,10 @@ msgstr "محوَّل من"
 #. source: erpnext
 msgid "Transferred to"
 msgstr "محوَّل إلى"
+
+#. source: hrms
+msgid "Transfers (This Month)"
+msgstr "حالات النقل (هذا الشهر)"
 
 #. source: frappe
 msgid "Transgender"
@@ -77718,6 +78074,10 @@ msgid "Warehouse wise Item Balance Age and Value"
 msgstr "عمر وقيمة رصيد الصنف حسب المستودع"
 
 #. source: erpnext
+msgid "Warehouse wise Stock Value"
+msgstr "قيمة المخزون حسب المستودع"
+
+#. source: erpnext
 msgid "Warehouse {0} can not be deleted as quantity exists for Item {1}"
 msgstr "مستودع {0} لا يمكن حذف كما توجد كمية القطعة ل {1}"
 
@@ -78160,6 +78520,10 @@ msgstr "مشغل خطاف الويب"
 #. source: frappe
 msgid "Webhook URL"
 msgstr "رابط خطاف الويب"
+
+#. source: frappe
+msgid "Webpage Views"
+msgstr "مشاهدات صفحات الويب"
 
 #. source: frappe
 msgid "Website"
@@ -79269,6 +79633,14 @@ msgstr "حقول محور Y"
 #. source: frappe
 msgid "Y Field"
 msgstr "حقل Y"
+
+#. source: hrms
+msgid "Y-O-Y Promotions"
+msgstr "الترقيات على أساس سنوي"
+
+#. source: hrms
+msgid "Y-O-Y Transfers"
+msgstr "حالات النقل على أساس سنوي"
 
 #. source: frappe
 msgid "Yahoo Mail"
@@ -82295,7 +82667,7 @@ msgstr "{0} ساعات"
 
 #. source: frappe
 msgid "{0} hours ago"
-msgstr "{0} قبل ساعات"
+msgstr "قبل {0} ساعات"
 
 #. source: frappe
 msgid "{0} if you are not redirected within {1} seconds"
@@ -83138,7 +83510,7 @@ msgstr "تم ضبط {0} على تاريخ اليوم للأصناف التي ت�
 
 #. source: frappe
 msgid "{0} weeks ago"
-msgstr "قبل {0} أسبوع /أسابيع"
+msgstr "قبل {0} أسابيع"
 
 #. source: erpnext
 msgid "{0} will be given as discount."
@@ -83162,7 +83534,7 @@ msgstr "{0} ص"
 
 #. source: frappe
 msgid "{0} years ago"
-msgstr "قبل {0} سنة"
+msgstr "قبل {0} سنوات"
 
 #. source: erpnext
 msgid "{0} {1}"
