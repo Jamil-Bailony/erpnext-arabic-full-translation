@@ -30132,6 +30132,10 @@ msgstr "تعيينات الورديات الحالية"
 msgid "Existing transactions in the system belonging to the same bank account and date range"
 msgstr "المعاملات القائمة في النظام التي تخص الحساب البنكي والنطاق الزمني نفسه"
 
+#. source: erpnext
+msgid "Exit"
+msgstr "خروج"
+
 #. source: hrms
 msgid "Exit Confirmed"
 msgstr "تم تأكيد الخروج"
@@ -34721,6 +34725,10 @@ msgstr "الحصول على المخزون"
 #. source: erpnext
 msgid "Get Sub Assembly Items"
 msgstr "الحصول على أصناف التجميع الفرعية"
+
+#. source: erpnext
+msgid "Get Supplier Group Details"
+msgstr "الحصول على تفاصيل مجموعة الموردين"
 
 #. source: erpnext
 msgid "Get Suppliers"
@@ -91312,6 +91320,10 @@ msgstr "مرجع تفاصيل السند"
 #. source: erpnext
 msgid "Voucher Details"
 msgstr "تفاصيل السند"
+
+#. source: erpnext
+msgid "Voucher Name"
+msgstr "اسم السند"
 
 #. source: erpnext
 msgid "Voucher No"

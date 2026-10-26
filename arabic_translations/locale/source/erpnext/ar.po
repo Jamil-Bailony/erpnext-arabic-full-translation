@@ -69281,14 +69281,68 @@ msgstr "زبائنك، مرتبين حسب ما تسلّمه لهم."
 msgid "Your best-selling items over the year."
 msgstr "أصنافك الأكثر مبيعًا خلال السنة."
 
+msgid "<h5 class=\"text-muted uppercase\">Or</h5>"
+msgstr "<h5 class=\"text-muted uppercase\">أو</h5>"
+
+msgid "Add Template"
+msgstr "إضافة قالب"
+
+msgid "Assignment"
+msgstr "مهمة"
+
+msgid "Dear"
+msgstr "العزيز"
+
+msgid "Dear System Manager,"
+msgstr "عزيزي مدير النظام،"
+
+msgid "Exit"
+msgstr "خروج"
+
+msgid "Export Errored Rows"
+msgstr "تصدير الصفوف الخطأ"
+
+msgid "Get Supplier Group Details"
+msgstr "الحصول على تفاصيل مجموعة الموردين"
+
+msgid "Include Disabled"
+msgstr "تضمين المعطل"
+
+msgid "No failed logs"
+msgstr "لا توجد سجلات فاشلة"
+
+msgid "Primary Address"
+msgstr "عنوان أساسي"
+
+msgid "Primary Contact"
+msgstr "جهة الاتصال الأساسية"
+
+msgid "Shipping Address"
+msgstr "عنوان الشحن"
+
+msgid "Show Traceback"
+msgstr "إظهار تتبع الأخطاء"
+
+msgid "Start Import"
+msgstr "بدء الاستيراد"
+
+msgid "Voucher Name"
+msgstr "اسم السند"
+
+msgid "Watch Video"
+msgstr "شاهد الفيديو"
+
+msgid "You haven't created a {0} yet"
+msgstr "لم تقم بإنشاء {0} حتى الآن"
+
+msgid "YouTube"
+msgstr "يوتيوب"
+
 #~ msgid " Reserve Stock"
 #~ msgstr " حجز المخزون"
 
 #~ msgid "'Date' is required"
 #~ msgstr "&quot;التاريخ&quot; مطلوب"
-
-#~ msgid "<h5 class=\"text-muted uppercase\">Or</h5>"
-#~ msgstr "<h5 class=\"text-muted uppercase\">أو</h5>"
 
 #~ msgid "<span class=\"h4\"><b>Reports & Masters</b></span>"
 #~ msgstr "<span class=\"h4\"><b>التقارير والبيانات الرئيسية</b></span>"
@@ -69358,9 +69412,6 @@ msgstr "أصنافك الأكثر مبيعًا خلال السنة."
 
 #~ msgid "Add Participants"
 #~ msgstr "أضف مشاركين"
-
-#~ msgid "Add Template"
-#~ msgstr "إضافة قالب"
 
 #~ msgid "Added"
 #~ msgstr "تمت الإضافة"
@@ -69445,9 +69496,6 @@ msgstr "أصنافك الأكثر مبيعًا خلال السنة."
 
 #~ msgid "Assigned To"
 #~ msgstr "كلف إلى"
-
-#~ msgid "Assignment"
-#~ msgstr "مهمة"
 
 #~ msgid "Attachment"
 #~ msgstr "مرفق"
@@ -69678,12 +69726,6 @@ msgstr "أصنافك الأكثر مبيعًا خلال السنة."
 #~ msgid "Day of Week"
 #~ msgstr "يوم من الأسبوع"
 
-#~ msgid "Dear"
-#~ msgstr "العزيز"
-
-#~ msgid "Dear System Manager,"
-#~ msgstr "عزيزي مدير النظام،"
-
 #~ msgid "Default"
 #~ msgstr "الافتراضي"
 
@@ -69858,9 +69900,6 @@ msgstr "أصنافك الأكثر مبيعًا خلال السنة."
 #~ msgid "Event"
 #~ msgstr "حدث"
 
-#~ msgid "Exit"
-#~ msgstr "خروج"
-
 #~ msgid "Expand All"
 #~ msgstr "توسيع الكل"
 
@@ -69878,9 +69917,6 @@ msgstr "أصنافك الأكثر مبيعًا خلال السنة."
 
 #~ msgid "Export Data"
 #~ msgstr "تصدير البيانات"
-
-#~ msgid "Export Errored Rows"
-#~ msgstr "تصدير الصفوف الخطأ"
 
 #~ msgid "Export Import Log"
 #~ msgstr "تصدير سجل الاستيراد"
@@ -69974,9 +70010,6 @@ msgstr "أصنافك الأكثر مبيعًا خلال السنة."
 
 #~ msgid "Get Items from Open Material Requests"
 #~ msgstr "الحصول على عناصر من طلبات فتح المواد"
-
-#~ msgid "Get Supplier Group Details"
-#~ msgstr "الحصول على تفاصيل مجموعة الموردين"
 
 #~ msgid "Get Updates"
 #~ msgstr "الحصول على التحديثات"
@@ -70102,9 +70135,6 @@ msgstr "أصنافك الأكثر مبيعًا خلال السنة."
 
 #~ msgid "Inactive"
 #~ msgstr "غير نشط"
-
-#~ msgid "Include Disabled"
-#~ msgstr "تضمين المعطل"
 
 #~ msgid "Incoming"
 #~ msgstr "الوارد"
@@ -70346,9 +70376,6 @@ msgstr "أصنافك الأكثر مبيعًا خلال السنة."
 #~ msgid "No data to export"
 #~ msgstr "لا توجد بيانات للتصدير"
 
-#~ msgid "No failed logs"
-#~ msgstr "لا توجد سجلات فاشلة"
-
 #~ msgid "No items to be received are overdue"
 #~ msgstr "لا توجد عناصر يتم استلامها متأخرة"
 
@@ -70493,12 +70520,6 @@ msgstr "أصنافك الأكثر مبيعًا خلال السنة."
 
 #~ msgid "Preview"
 #~ msgstr "معاينة"
-
-#~ msgid "Primary Address"
-#~ msgstr "عنوان أساسي"
-
-#~ msgid "Primary Contact"
-#~ msgstr "جهة الاتصال الأساسية"
 
 #~ msgid "Print"
 #~ msgstr "طباعة"
@@ -70814,14 +70835,8 @@ msgstr "أصنافك الأكثر مبيعًا خلال السنة."
 #~ msgid "Setup"
 #~ msgstr "الإعدادات"
 
-#~ msgid "Shipping Address"
-#~ msgstr "عنوان الشحن"
-
 #~ msgid "Show Preview"
 #~ msgstr "عرض المعاينة"
-
-#~ msgid "Show Traceback"
-#~ msgstr "عرض التتبع"
 
 #~ msgid "Size"
 #~ msgstr "حجم"
@@ -70861,9 +70876,6 @@ msgstr "أصنافك الأكثر مبيعًا خلال السنة."
 
 #~ msgid "Start Deletion"
 #~ msgstr "بدء الحذف"
-
-#~ msgid "Start Import"
-#~ msgstr "بدء الاستيراد"
 
 #~ msgid "Start Time"
 #~ msgstr "بداية الوقت"
@@ -71152,9 +71164,6 @@ msgstr "أصنافك الأكثر مبيعًا خلال السنة."
 #~ msgid "Views"
 #~ msgstr "المشاهدات"
 
-#~ msgid "Voucher Name"
-#~ msgstr "اسم القسيمة"
-
 #~ msgid "Wages per hour"
 #~ msgstr "الأجور في الساعة"
 
@@ -71163,9 +71172,6 @@ msgstr "أصنافك الأكثر مبيعًا خلال السنة."
 
 #~ msgid "Warehouse not found in the system"
 #~ msgstr "لم يتم العثور على المستودع في النظام"
-
-#~ msgid "Watch Video"
-#~ msgstr "شاهد الفيديو"
 
 #~ msgid "Website Manager"
 #~ msgstr "مدير الموقع"
@@ -71217,12 +71223,6 @@ msgstr "أصنافك الأكثر مبيعًا خلال السنة."
 
 #~ msgid "Yes"
 #~ msgstr "نعم"
-
-#~ msgid "You haven't created a {0} yet"
-#~ msgstr "لم تقم بإنشاء {0} بعد"
-
-#~ msgid "YouTube"
-#~ msgstr "موقع YouTube"
 
 #~ msgid "Your email address..."
 #~ msgstr "عنوان بريدك الإلكتروني..."
